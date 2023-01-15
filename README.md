@@ -4,6 +4,8 @@
 
 •	UB Leiden: https://unloch.github.io/lod/index.html 
 
+•	https://uu.triply.cc/ubu/-/stories/How-to-SPARQL
+
 •	The Carpentries (article, not a lesson): https://librarycarpentry.org/Top-10-FAIR/2019/09/05/linked-open-data/
 
 •	FutureLearn (not currently running): https://www.futurelearn.com/courses/linked-data
