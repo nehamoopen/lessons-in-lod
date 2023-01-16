@@ -10,4 +10,5 @@
 
 •	FutureLearn (not currently running): https://www.futurelearn.com/courses/linked-data
 
+•	FAIR Metadata Graphs (presentation by Ruben on 16-01-2022)
 
