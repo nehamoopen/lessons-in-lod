@@ -1,0 +1,17 @@
+- tabular dataset with all sorts of authors, from special collections, with marc ids etc.
+- convert the tabular dataset into triples, which defines relationships within a row
+- triples -> subject, predicate, object
+- for example: author, date, something else...one of them could be from a controlled vocabulary so it's actually useful
+- if we want linked data, we start from a csv file -> make triples out of it, specify the rules (mapping scheme) for the triples (the relationships)
+- we can make triples in openrefine and there are some python libraries as well, clariah is also developing things
+- relationships have to be specified between columns, it does not have to be between rows..
+- what is a triplestore? linked data has to be deposited in a triplestore
+- see druid.datalegend.net as an example of triplestore
+- triplestores can be queried from within and outside the triplestore, openly published lods can be queried using APIs
+- WORKFLOW: csv file -> OpenRefine to apply the mapping scheme and to create turtle file -> put the turtle file in triplestore -> and you get graphs and relationships!
+- open up open refine -> import file -> create project 
+- example relations, go to the RDF extension and click select edit RDF skeleton which is the mapping
+- there are some available prefixes, but you can add your own - so import the vocabulary. prefix = abbreviation of the vocabulary you are using
+- building the skeleton, starts with row index but we don't want that...start with name (subject) and make it a URI (so you can query it) and then there will be a base URI
+- then you can add more URIs, we can add a predicate..what is the relationship between name and this new column? it can be a 'skos:exactmatch' with this new column
+- uh-oh stopped taking notes omg
